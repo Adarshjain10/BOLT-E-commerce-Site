@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width , initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Conatct Us | BOLT</title>
+		<link rel="stylesheet" href="style.css" />
+		<link href="
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+	</head>
+	<body>
+		<div class="header">
+			<div class="container">
+				<div class="navbar">
+					<div class="logo">
+						<a href="index.html"
+							><img src="images/logo2.png" width="125px"
+						/></a>
+					</div>
+					<nav>
+						<ul id="MenuItems">
+							<li><a href="index.html"><strong>Home</strong></a></li>
+							<li><a href="products.html"><strong>Products</strong></a></li>
+							<li><a href="About.html"><strong>About</strong></a></li>
+							<li><a href="Contact.html"><strong>Contact</strong></a></li>
+							<li><a href="account.html"><strong>Account</strong></a></li>
+						</ul>
+					</nav>
+					<a href="cart.html"
+						><img src="images/cart.png" width="30px" height="30px"
+					/></a>
+					<img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+				</div>
+			</div>
+		</div>
+
+		<!--------------------------contact----------------->
+
+		<div class="contact">
+            <br>
+			<h2>Contact us</h2>
+            <br>
+            
+			<p>
+				<strong>Can’t find a product</strong> you’re looking for? Or need help placing
+				an order? For queries, feedback or complaints about your experience on
+            <strong>BOLT</strong>, call us on <strong> 022-62313777.</strong> <br> About Your Order To track your order, or
+				cancel/return a product, log in to your account here to find updates or
+				make changes to your order. Alternatively, email BOLT Care at
+            <strong> luxury@BOLT.com</strong> , we will respond to you within<strong>  48 hours.<strong> 
+			</p>
+		</div>
+
+		<!-------------------------brands--------------------->
+		<div class="brands">
+			<div class="small-container">
+				<div class="row">
+					<div class="col-5">
+						<img src="images/logo-godrej.png" />
+					</div>
+					<div class="col-5">
+						<img src="images/logo-oppo.png" />
+					</div>
+					<div class="col-5">
+						<img src="images/logo-coca-cola.png" />
+					</div>
+					<div class="col-5">
+						<img src="images/logo-philips.png" />
+					</div>
+					<div class="col-5">
+						<img src="images/logo-paypal.png" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--------------------------------footer------------------>
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="footer-col-1">
+						<h3>Download our App</h3>
+
+						<p>Download App for Android and IOS mobile phone</p>
+						<div class="app-logo">
+							<img src="images/play-store.png" />
+							<img src="images/app-store.png" />
+						</div>
+					</div>
+					<div class="footer-col-2">
+						<img src="images/Bolt small logo.jpg" />
+						<p>
+							Our purpose is to Sustainably make the pleasure and benefits of
+							sports accessible to the many
+						</p>
+					</div>
+					<div class="footer-col-3">
+						<h3>Useful Links</h3>
+						<ul>
+							<li>Coupons</li>
+							<li>Blog Post</li>
+							<li>Return Policy</li>
+							<li>Join Affiiate</li>
+						</ul>
+					</div>
+					<div class="footer-col-3">
+						<h3>Follow Us</h3>
+						<ul>
+							<li>Facebook</li>
+							<li>Twitter</li>
+							<li>Instagram</li>
+							<li>Youtube</li>
+						</ul>
+					</div>
+				</div>
+				<hr />
+				<p class="copyright">Copyright 2021- ADARSH JAIN</p>
+			</div>
+		</div>
+		<!--------------------------js for toggle menu------------>
+		<script>
+			var MenuItems = document.getElementById("MenuItems");
+			MenuItems.style.maxHeight = "0px";
+			function menutoggle() {
+				if (MenuItems.style.maxHeight == "0px") {
+					MenuItems.style.maxHeight = "200px";
+				} else {
+					MenuItems.style.maxHeight = "0px";
+				}
+			}
+		</script>
+	</body>
+</html>
