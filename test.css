@@ -67,6 +67,8 @@ position: relative;
     
    
 }
+
+}
 .third{
     width: 43%;
     height: 40%;
@@ -92,7 +94,7 @@ position: relative;
 }
 .img2{
 	position: relative;
-	bottom: 30%;
+	bottom: 40%;
 	left: 5%;
 }
 .bo1{
